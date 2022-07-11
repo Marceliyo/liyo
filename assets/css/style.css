@@ -582,23 +582,31 @@ a.gallery__grid {
 /*MEDIA*/
 @media only screen and (max-width: 768px) {
     .container__index {
+        display: flex;
+        flex-direction: column;
         width: 100%;
+        }
+    .nav__index {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 0;
+        width: 100%;
     }
     .nav__index__logo{
-        margin-left: 90px;
-    }
-    .nav__index {
-        display: flex;
-        flex-direction: column;
-        margin-left:10px;
-        align-content:space-around;
+        margin: 0;
     }
     .nav__index__link {
         font-size: 2.5rem;
+    }
+    .nav__footer--index{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav__footer__link--index{ 
+        font-size: 2rem; 
+        margin:5px;
     }
     .nav__footer {
         display: flex;
@@ -611,26 +619,20 @@ a.gallery__grid {
     .nav__footer__link {
         color: rgb(246, 251, 113) !important;
         font-family: 'Montserrat', sans-serif;
-        font-size: 0.7rem;
         margin-right: 10px;
     }
     .nav {
-        display: flex;
-        position: fixed;
         flex-direction: column;
-        align-content: center;
-        padding: 0;
-        max-width: 100%;
+        align-items: center;
+    }
+    .nav__logo{
+        margin: 0;
     }
     .menu {
         width: 100%;
         flex-wrap: wrap;
         top: 0;
         justify-content: center;
-    }
-    .nav__logo {
-        display: block;
-        margin: 50px auto 0px;
     }
     .menu__item__link {
         margin: 5px;
@@ -643,16 +645,19 @@ a.gallery__grid {
     .material-symbols-outlined {
         margin-left: 0;
     }
+    .mobile{
+        display: none;
+    }
     .container {
+        width: 80%;
         width: 100%;
+        margin-top: 190px;
     }
     .subcontainer {
-        display: flex;
-        align-items: center;
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-        margin: 0;
+        width: 100%;
     }
     .tittle {
         word-wrap: break-word;
@@ -736,49 +741,83 @@ a.gallery__grid {
 @media only screen and (max-width: 320px) {
     .nav{
         width:100%;
+        flex-direction: column;
+        align-items: center;
+        top: 0;
+    }
+    .nav__logo{
+        margin-top: 90px;
     }
     .nav__index{
         top: 0;
-        width: 300px;
         margin-top: 10px;
     }
-    .card{
-        width: 100%;
-        margin-top: 0;
+    .menu__item__link{
+        font-size: 2rem;   
+    }
+    .menu__item__link--active{
+        font-size: 2rem;
+        word-wrap: break-word;
     }
     .desk{
         display: none;
     }
+    .container{
+        width: 100%;
+        margin-top: 190px;
+    }
+    .subcontainer{
+        width: 100%;
+    }
+    .menu__item__link {
+        margin:0;
+    }
+    .text__p{
+        width: 100%;
+    }
     .tittle{
-        width:300px;
+        width:100%;
+        text-align: center;
+        line-height:4rem;
         word-wrap: break-word;
     }
     .content__maps{
         overflow: hidden;
     }
     .nav__footer--index{  
-        flex-direction:column;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         bottom: 0;
     }
-    .nav__footer{  
-       padding: 5px;
-       justify-content: center;
+    .nav__footer__link--index{ 
+        font-size: 2rem; 
+        margin: 5px;
     }
-    .nav__footer__link--index{  
-        margin: 0%;
+    .nav__footer{
+        flex-direction: column;
         text-align: center;
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
     }
     .nav__footer__item{
         margin: 5px;
     }
     .nav__footer__link{
-        font-size:1.3rem;
+        font-size:2rem;
     }
     .material-symbols-outlined.nav__footer__item--index{
         display: none;
     }
     .material-symbols-outlined.nav__footer__item{
         display: none;
+    }
+    .desk{
+        display: none;
+    }
+    .mobile{
+        display: block;
     }
     .container__grid {
         width: 300px !important;
