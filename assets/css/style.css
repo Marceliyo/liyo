@@ -49,8 +49,12 @@ footer {
 .subcontainer {
     display: flex;
     padding: 10px;
-
-    justify-content: space-between;
+    justify-content: center;
+}
+.subcontainer__tittle {
+    display: flex;
+    padding: 10px;
+    justify-content:left;
 }
 
 .cards {
@@ -71,7 +75,7 @@ footer {
 .subtittle {
     font-family: 'Montserrat', sans-serif;
     color: rgb(105, 104, 104);
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bolder;
 }
 
@@ -94,8 +98,9 @@ footer {
     flex-direction: column;
     color: rgb(55, 55, 55);
     font-size: 1rem;
-    flex-basis: 60%;
     justify-content: end;
+    margin-right: 20px;
+    flex-basis: 55%;
 }
 
 .text__s {
@@ -118,14 +123,17 @@ footer {
 }
 
 /*INDX*/
+.flex__column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .background__image {
     background-image: url(../img/fondo__myo.png);
-    z-index: 1;
     transition: 0.9s;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    overflow: hidden;
     height: 100vh;
     width: 100%;
 }
@@ -135,14 +143,13 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    overflow: hidden;
     top: 0;
     margin: 0;
+    height: 100vh;
 }
 
 .container__index {
     width: 100%;
-    position: absolute;
     vertical-align: middle;
 }
 
@@ -228,12 +235,9 @@ footer {
 
 .nav__footer--index {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     width: 100%;
     bottom: 0;
-    position: absolute;
-    z-index: 3;
     /*  background-color: rgb(54, 54, 54); */
 }
 
@@ -338,7 +342,8 @@ footer {
 
 .img__profile {
     width: 30%;
-    margin-left: 50px;
+    justify-content: center;
+    flex-basis: 30%;
 }
 
 .material-symbols-outlined.bio {
@@ -673,9 +678,20 @@ a.gallery__grid {
     height: 100%;
     background-color: yellow;
 }
+.card{
+    margin: 20px;
+}
 
 /*MEDIA*/
 @media only screen and (max-width: 768px) {
+    .background__image {
+        background-image: url(../img/fondo__myo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: auto;
+    }
     .container__index {
         display: flex;
         flex-direction: column;
@@ -702,15 +718,22 @@ a.gallery__grid {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-top: 90px;
     }
-
     .nav__footer__link--index {
-        font-size: 2rem;
-        margin: 5px;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        margin-left: 10px;
+        margin-top: 0px;
     }
 
     .nav__footer {
-        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
     }
 
     .nav__footer__item {
@@ -747,8 +770,7 @@ a.gallery__grid {
     }
 
     .img__profile {
-        width: 100%;
-        margin: 60px 0 10px 0;
+        display: none;
     }
 
     .material-symbols-outlined {
@@ -779,8 +801,12 @@ a.gallery__grid {
     .card {
         flex-direction: column;
         border-right: none;
+        justify-content: center;
     }
-
+    
+    .cards {
+        border-right:none;
+    }
     .text__p {
         margin: 10px;
         flex-basis: 100%;
@@ -864,9 +890,6 @@ a.gallery__grid {
         margin: 20px 0px 10px 0px;
     }
 
-    .card {
-        margin: 10px;
-    }
 }
 
 
@@ -992,6 +1015,9 @@ a.gallery__grid {
     }
 
     .card {
-        margin-bottom: 30px;
+        margin: 20px;
+    }
+    .cards {
+        border-right:none;
     }
 }
