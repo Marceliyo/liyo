@@ -67,7 +67,7 @@
 .material-symbols-outlined.bio {
     font-size: 2rem;
     margin-left: 9px;
-    margin-right: 0;
+    margin-right: 100px;
 }
 
 .right {
@@ -90,7 +90,7 @@
     justify-content: center;
     width: 100%;
     bottom: 0;
-    height: 15vh;
+    height: 20vh;
     margin: 0;
     background-color: map-get($paleta, "color-principal");
 
@@ -111,6 +111,10 @@
         margin-top: 40px;
         text-decoration: none;
     }
+}
+.right {
+    color: map-get($paleta , color-terciario ) !important;
+    margin-top: 40px;
 }
 
 

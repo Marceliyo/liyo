@@ -102,7 +102,7 @@
         margin-top: 190px;
     }
 
-    .subcontainer {
+    .subcontainer__content {
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
@@ -244,7 +244,7 @@
         margin-top: 190px;
     }
 
-    .subcontainer {
+    .subcontainer__content {
         width: 100%;
     }
 
@@ -255,10 +255,12 @@
     .text__p {
         width: 100%;
     }
-
+    .text__s {
+        flex-basis: 100% !important;
+    }
     .tittle {
         width: 100%;
-        text-align: center;
+        text-align: left;
         line-height: 4rem;
         word-wrap: break-word;
     }

@@ -416,10 +416,10 @@ footer {
     margin-top: 0px;
 }
 
-.illurstration {
+.illustration {
     /*   background-color: bisque; */
     /*   width: 100%; */
-    margin-bottom: 90px;
+    margin-bottom: 900px;
 }
 
 .container__illus {
@@ -628,7 +628,7 @@ footer {
 }
 
 a.gallery__grid {
-    font-size: 1.8rem;
+    font-size: 1rem;
     color: rgb(61, 200, 239);
 }
 

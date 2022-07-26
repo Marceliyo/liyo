@@ -1,0 +1,17 @@
+%subcontainer{ 
+    display: flex;
+    padding: 10px;
+}
+
+
+/*mixins*/
+@mixin text ($justify, $flexBasis, $marginRight) {
+    display: flex;
+    flex-direction: column;
+    color: rgb(55, 55, 55);
+    font-size: 1rem;
+    justify-content: $justify;
+    flex-basis:  $flexBasis;
+    margin-right: $marginRight;
+    
+}

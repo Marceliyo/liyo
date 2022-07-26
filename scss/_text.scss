@@ -1,0 +1,13 @@
+@import './base/variables';
+
+
+
+.text__p{
+    @include text (end, 55%, 20px);
+   
+
+}
+.text__s{
+    @include text (start, 50%, 20px);
+
+}

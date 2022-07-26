@@ -1,0 +1,33 @@
+
+/*FORM*/
+.cuerpo {
+    display: inline-block;
+    margin-left: 25%;
+    height: 400px;
+    margin-bottom: 200px;
+}
+
+.content {
+    float: left;
+    margin-top: 120px;
+
+    &__mail {
+        width: 600px;
+        padding: 10px;
+    };
+    &__contact__item {
+        padding: 10px 10px 20px;
+        margin: 15px 0px;
+        border-style: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        border-bottom: solid 1px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        width: 400px;
+        height: 20px;
+        background-color: rgba(255, 255, 255, 0);
+    }
+}
+
+

@@ -1,0 +1,10 @@
+@import './base/variables';
+
+.subcontainer__content {
+    @extend %subcontainer;
+    justify-content: center;
+}
+.subcontainer__tittle {
+    @extend %subcontainer;
+    justify-content:left;
+} 

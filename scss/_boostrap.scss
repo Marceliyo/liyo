@@ -1,7 +1,7 @@
-/* .navbar {
-    background-color: rgb(236 236 236);
+.navbar {
+    background-color: #ececec;
 }
- */
+
 .collapse {
     justify-content: flex-end;
 }
@@ -20,7 +20,7 @@
 
 .nav-link.active {
     text-decoration-line: line-through;
-   /*  color: rgb(239, 99, 12) !important; */;
+    color: map-get($paleta , color-btnactivo )!important;
     font-weight: bold;
 }
 

@@ -1,0 +1,42 @@
+/*ART WORK*/
+.container__art {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    margin-top: 100px;
+}
+
+.mobile {
+    display: none;
+}
+
+.tittle__section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    max-width: 1080px;
+}
+
+.art__content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.art__content__tittle {
+    margin: 20px;
+    font-size: 3rem;
+}
+
+.art__content__description {
+    margin: 20px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.art__img {
+    width: 100%;
+}
