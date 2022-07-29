@@ -1,3 +1,8 @@
+.subcontainer__content, .subcontainer__tittle {
+  display: flex;
+  padding: 10px; }
+
+/*mixins*/
 * {
   margin: 0;
   padding: 0;
@@ -124,7 +129,7 @@ body {
 .nav__index {
   display: flex;
   justify-content: center;
-  margin-top: 140px; }
+  margin-top: 18%; }
   .nav__index__item {
     margin-top: 40px;
     margin-left: 0px; }
@@ -304,7 +309,7 @@ body {
 
 @media only screen and (max-width: 768px) {
   .background__image {
-    background-image: url(../img/fondo__myo.png);
+    background-image: url(../assets/img/fondo__myo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -324,6 +329,11 @@ body {
     margin: 0; }
   .nav__index__link {
     font-size: 2.5rem; }
+    .nav__index__link::before {
+      font-size: 2rem;
+      width: 3rem;
+      transform: translateY(2.5rem);
+      margin: 0 3rem; }
   .nav__footer--index {
     flex-direction: column;
     align-items: center;
@@ -414,7 +424,8 @@ body {
     width: 100%;
     justify-content: center; }
   .background__grid {
-    background-image: url(../img/fondo__myo.png);
+    /* 
+        background-image: url(../img/fondo__myo.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -447,8 +458,13 @@ body {
   .nav__index {
     top: 0;
     margin-top: 10px; }
-  .menu__item__link {
-    font-size: 2rem; }
+  .nav__index__link {
+    font-size: 2.5rem; }
+    .nav__index__link::before {
+      font-size: 2rem;
+      width: 3rem;
+      transform: translateY(2.5rem);
+      margin: 0 1rem; }
   .menu__item__link--active {
     font-size: 2rem;
     word-wrap: break-word; }
@@ -712,11 +728,6 @@ a.gallery__grid {
 .subcontainer__tittle {
   justify-content: left; }
 
-.subcontainer__content, .subcontainer__tittle {
-  display: flex;
-  padding: 10px; }
-
-/*mixins*/
 .text__p {
   display: flex;
   flex-direction: column;
