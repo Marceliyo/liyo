@@ -6,7 +6,12 @@
     height: 400px;
     margin-bottom: 200px;
 }
-
+.phone{
+    display: none;
+}
+.tablet{
+    display: block;
+}
 .content {
     float: left;
     margin-top: 120px;
@@ -29,5 +34,8 @@
         background-color: rgba(255, 255, 255, 0);
     }
 }
-
+.subcontainer__content__contact{
+    display: flex;
+    flex-direction: row;
+}
 

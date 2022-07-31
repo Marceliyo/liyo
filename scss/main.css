@@ -239,7 +239,6 @@ body {
   color: white !important;
 }
 .nav__footer__link {
-  color: rgb(246, 251, 113) !important;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   margin-left: 10px;
@@ -345,7 +344,6 @@ body {
   color: white !important;
 }
 .nav__footer__link {
-  color: rgb(246, 251, 113) !important;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   margin-left: 10px;
@@ -411,7 +409,6 @@ body {
     color: rgb(255, 255, 255) !important;
   }
   .nav__footer__link {
-    color: rgb(246, 251, 113) !important;
     font-family: "Montserrat", sans-serif;
     margin-right: 10px;
   }

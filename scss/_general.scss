@@ -29,7 +29,15 @@ body{
     max-width: 1080px;
     margin-bottom: 90px;
 }
-
+.mobile {
+    display: none;
+}
+.phone{
+    display: none;
+}
+.tablet{
+    display: block !important;
+}
 /* .subcontainer {
     display: flex;
     padding: 10px;
@@ -94,3 +102,35 @@ body{
     flex-basis: 50%;
     margin: 10px;
 } */
+
+
+.nav__footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+    height: 20vh;
+    margin: 0;
+    background-color: map-get($paleta, "color-principal");
+    color: map-get($paleta, "color-secundario");
+
+    &__item {
+        display: flex;
+    }
+
+    &__linkGeo {
+        color: white !important;
+    }
+
+    &__link {
+        color: map-get($paleta, "color-secundario");
+        font-size:3rem;
+        margin-left: 10px;
+        margin-top: 40px;
+        text-decoration: none;
+    }
+}
+.right {
+    color: map-get($paleta , color-secundario ) !important;
+    margin-top: 40px;
+}
