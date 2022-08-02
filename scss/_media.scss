@@ -135,6 +135,9 @@
         display: flex;
         flex-direction:column;
     }
+    .subcontainer__contentt{
+        align-items: center;
+    }
 
     .tittle {
         word-wrap: break-word;
@@ -273,6 +276,7 @@
 .subcontainer__content {
     display: flex;
     flex-direction: column;
+    align-items: center;
    
 }
 

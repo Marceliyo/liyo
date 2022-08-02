@@ -619,6 +619,8 @@ a.gallery__grid {
   .subcontainer__content__contact {
     display: flex;
     flex-direction: column; }
+  .subcontainer__contentt {
+    align-items: center; }
   .tittle {
     word-wrap: break-word; }
   .card {
@@ -701,7 +703,8 @@ a.gallery__grid {
     margin-top: 190px; }
   .subcontainer__content {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    align-items: center; }
   .menu__item__link {
     margin: 0; }
   .text__p {
@@ -872,7 +875,8 @@ a.gallery__grid {
     border-right: none; } }
 
 .subcontainer__content {
-  justify-content: center; }
+  justify-content: center;
+  align-items: center; }
 
 .subcontainer__tittle {
   justify-content: left; }
