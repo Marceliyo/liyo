@@ -35,7 +35,16 @@
     };
 
 }
+.listboock{
+    text-decoration:solid;
+    &:before { content: "__" };
 
+}
+
+.bio3{
+    margin-left: 0px;
+    margin-top: 0px !important;
+}
 
 .footer__grid {
     background-color: rgb(54, 54, 54);

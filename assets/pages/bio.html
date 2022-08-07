@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=º, initial-scale=1.0">
         <meta name="keywords" content="Design, art, branding, visual, communication, Marceliyo, Liyo, Graphic Design, art direction, advetising">
         <meta name="description" content="Hola! Soy Marceliyo, bienvenido a mi espacio!. Aquí te cuento un poco de mi carrera, mi formación, mi recorrido laboral y también muy pasatiempos, mis gustos y algunas actividades que practico en mis tiempos libres.">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
@@ -55,9 +56,11 @@
         <main>
             <section class="container">
                 <div class="subcontainer__tittle">
-                    <p class="tittle"><span class="material-symbols-outlined index">
+                    <p class="tittle">
+                        <span class="material-symbols-outlined index">
                             sentiment_very_satisfied
-                        </span>Bio</p>
+                        </span>Bio
+                    </p>
                 </div>
 
                 <div class="subcontainer__tittle">
@@ -68,34 +71,54 @@
                     </p>
                     <img class="img__profile" src="../img/perfil_img.png" alt="imagen de perfil">
                 </div>
-                <!-- <div class="subcontainer">
-                    <p class="text__s__bold">Mi nombre es Marcelo Campogrande, soy Diseñador Gráfico/ Director de Arte e Ilustrador. También tengo conocimientos y formación en diseño web, Ux/Ui. 
-                    </p>
-                </div> -->
+                
                 <span class="material-symbols-outlined bio2">
                     arrow_downward<span class="material-symbols-outlined bio">
                         forest
                     </span>
                 </span>
-                <div class="subcontainer__content">
-                    <p class="text__s">
+                <div class="subcontainer__content intro">
+                    <div data-aos="zoom-in" class="text__s intro" >
                             Mi nombre es Marcelo Campogrande, soy Diseñador Gráfico/ Director de Arte e Ilustrador. También tengo conocimientos y formación en diseño web, Ux/Ui.
-                            Vivo en capital federal, soltero, sin hijos. 
-                            Nací y me crié en la localidad de Turdera, zona sur de provincia de Bs As, a unos 20 km de capital.
-                    </p>
-                    <p class="text__s">Libros: La 9 revelación. Muchas vidas muchos maestros.
-                    </p>
+                            Vivo en capital federal. 
+                            Nací y me crié en la localidad de Turdera, zona sur de la provincia de Bs As, a unos 20 km de capital.
+                            
+                    </div> 
                 </div>
-                <!-- <div class="subcontainer">
-                    <p class="text__s__bold">Hobbies: Bici, correr, dibujar, leer, trompeta, whisky.
-                    </p>
-                </div> -->
+                   
                 <div class="subcontainer__content">
-                    <p class="text__s">
-                        Hobbies: Bici, correr, dibujar, leer, trompeta, whisky.</p>
-                    <p class="text__s">Actualmente trabajo en VMLY&R como director de arte/ diseñador, principalmente en campañas digitales y contenido para redes, diseño de sitios y app. 
-                    </p>
+                    <div data-aos="zoom-in" class="text__s">
+                        <p> Hola, siempre me costó estas instancias en dónde escribir es necesario, así que a modo de 
+                        autocompletar pasaré a contar algunas cosas. Disfruto de los momentos en los que puedo leer, dibujar, tomar un vino o un whisky, según la circunstancia.
+                        Tengo como necesidad salir a correr, andar en bici o jugar al fútbol con amigos.
+                        </p>
+                        <p> Podría hacer una especie de Boocklist random:
+                        </p>
+                        <ul>
+                            <li class="listboock">La 9 revelación.</li> 
+                            <li class="listboock">Muchas vidas, muchos maestros</li>
+                            <li class="listboock">Sabiduría para ser feliz y encontrar la paz.</li>
+                            <li class="listboock">El coronel no tiene quien le escriba</li>
+                            <li class="listboock">Todos los fuegos, el fuego.</li>
+                            <li class="listboock">Ensayo sobre la ceguera.</li>
+                            <li class="listboock">El hombre duplicado</li>      
+                        </ul>
+                    </div>
+                   
+                    <div data-aos="zoom-in"class="text__s">
+                        
+                        <p>Perserverante, en busca del detalle, pero no detallista. Preferencia por los diseños no sobrecargados, 
+                            en dónde el espacio en blanco se interpreta como aire, como descanso visual, como la posibilidad de circular con la mirada y no como un espacio vacío.
+                        </p>
+                        <p>
+                        <span class="material-symbols-outlined">
+                        arrow_forward
+                        </span>Actualmente trabajo en VMLY&R como director de arte/ diseñador, principalmente en campañas digitales y contenido para redes, diseño de sitios y app.
+                        </p>
+                    </div>
+                      
                 </div>
+             
             </section>
         </main>
         <footer>
@@ -113,7 +136,10 @@
                         target="_blank">Whatsapp</a></li>
             </ul>
         </footer>
-
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+    AOS.init();
+        </script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
             integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
         </script>

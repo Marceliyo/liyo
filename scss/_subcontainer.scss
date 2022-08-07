@@ -2,8 +2,7 @@
 
 .subcontainer__content {
     @extend %subcontainer;
-    justify-content: center;
-    align-items: center;
+    justify-content: center
 }
 .subcontainer__tittle {
     @extend %subcontainer;

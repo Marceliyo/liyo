@@ -56,6 +56,7 @@ body {
   flex-direction: column;
   justify-content: end;
   margin-right: 20px;
+  width: 100%;
   border-right: 1px solid #696868; }
 
 .tittle {
@@ -101,6 +102,14 @@ body {
     flex-basis: 50%;
     margin: 10px;
 } */
+.intro {
+  font-size: 1.4rem !important;
+  justify-content: left !important;
+  flex-basis: 100% !important;
+  line-height: 26px;
+  width: 90%;
+  margin: 0px; }
+
 .nav__footer {
   display: flex;
   justify-content: center;
@@ -274,6 +283,15 @@ body {
     font-size: 1rem;
     text-indent: 0px;
     margin: 40px; }
+
+.listboock {
+  text-decoration: solid; }
+  .listboock:before {
+    content: "__"; }
+
+.bio3 {
+  margin-left: 0px;
+  margin-top: 0px !important; }
 
 .footer__grid {
   background-color: #363636;
@@ -489,6 +507,11 @@ a.gallery__grid {
   padding-top: 9px;
   width: 95%; }
 
+.card-text {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  line-height: 19px; }
+
 .card {
   --bs-card-border-color: none!important; }
 
@@ -553,7 +576,7 @@ a.gallery__grid {
     .nav__index__link::before {
       width: 3rem;
       transform: translateY(3.8rem);
-      margin: 0 1rem; }
+      margin: 0 -1rem !important; }
   .phone {
     display: none; }
   .index__right {
@@ -686,7 +709,7 @@ a.gallery__grid {
     top: 0;
     margin-top: 10px; }
   .nav__index__link {
-    font-size: 2.5rem !important;
+    font-size: 2rem !important;
     margin-right: 25px; }
     .nav__index__link::before {
       display: none;
@@ -709,106 +732,8 @@ a.gallery__grid {
     margin: 0; }
   .text__p {
     width: 100%; }
-  .img__profile {
-    display: flex;
-    width: 100%; }
-  .tittle {
-    width: 100%;
-    text-align: left;
-    line-height: 4rem;
-    word-wrap: break-word;
-    font-size: 4rem; }
-  .content__maps {
-    overflow: hidden;
-    width: 100%;
-    text-align: center; }
-  .nav__footer--index {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    bottom: 0;
-    margin-top: 90px; }
-  .nav__footer__link--index {
-    font-size: 1.5rem;
-    margin: 5px; }
-  .nav__footer {
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-    height: auto;
-    padding-bottom: 30px;
-    align-items: center; }
-  .right {
-    margin-top: 10px; }
-  .nav__footer__item {
-    margin: 5px; }
-  .nav__footer__link {
-    color: white !important;
-    font-size: 1rem;
-    margin-left: 10px;
-    margin-top: 40px;
-    text-decoration: none; }
-  .material-symbols-outlined.nav__footer__item--index {
-    display: none; }
-  .material-symbols-outlined.nav__footer__item {
-    display: none; }
-  .desk {
-    display: none; }
-  .mobile {
-    display: block;
-    width: 100%; }
-  .phone {
-    display: block; }
-  .tablet {
-    display: none !important; }
-  .container__grid {
-    width: 300px !important; }
-  .gallery__grid {
-    display: grid;
-    grid-template-columns: 300px;
-    grid-template-areas: "imagen-1" "imagen-2" "imagen-3" "imagen-4" "imagen-4" "imagen-5";
-    column-gap: 5px;
-    row-gap: 5px; }
-  .card {
-    margin: 20px; }
-  .cards {
-    border-right: none; } }
-
-/*      MOBILE      */
-@media only screen and (max-width: 320px) {
-  .nav {
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    top: 0; }
-  .nav__logo {
-    margin-top: 90px; }
-  .nav__index {
-    top: 0;
-    margin-top: 10px; }
-  .nav__index__link {
-    font-size: 2.5rem !important;
-    margin-right: 25px; }
-    .nav__index__link::before {
-      display: none;
-      /* font-size: 2rem;
-            width: 3rem;
-            transform: translateY(2.5rem);
-            margin: 0 1rem;
-        }; */ }
-  .menu__item__link--active {
-    font-size: 2rem;
-    word-wrap: break-word; }
-  .container {
-    width: 100%;
-    margin-top: 190px; }
-  .subcontainer__content {
-    display: flex;
-    flex-direction: column; }
-  .menu__item__link {
-    margin: 0; }
-  .text__p {
-    width: 100%; }
+  .intro {
+    font-size: 1.5rem !important; }
   .img__profile {
     display: flex;
     width: 100%; }
@@ -875,8 +800,7 @@ a.gallery__grid {
     border-right: none; } }
 
 .subcontainer__content {
-  justify-content: center;
-  align-items: center; }
+  justify-content: center; }
 
 .subcontainer__tittle {
   justify-content: left; }
